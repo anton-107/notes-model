@@ -11,9 +11,7 @@ export interface NoteAttachment {
     createdAt: string;
     owner: string;
 }
-export type NoteExtensionProperties = {
-    [key: string]: string;
-};
+export type NoteExtensionProperties = {};
 export interface Note {
     id: string;
     notebookID: string;

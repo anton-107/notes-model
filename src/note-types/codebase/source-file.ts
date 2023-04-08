@@ -1,5 +1,4 @@
 import { JSONEncodedString } from "../../http-form";
-import { Note } from "../../note-model";
 
 export interface SourceFileContributor {
   name: string;
