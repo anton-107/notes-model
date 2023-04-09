@@ -18,5 +18,5 @@ export interface SourceFileNoteCreateUpdateRequest {
   "number-of-lines": string;
   "number-of-changes": string;
   "number-of-contributors": string;
-  "contributors": JSONEncodedString;
+  contributors: JSONEncodedString;
 }

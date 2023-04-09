@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "check-format": "prettier --check .",
+    "fix-format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/anton-107/notes-model#readme",
   "devDependencies": {
+    "prettier": "^2.8.7",
     "typescript": "^5.0.3"
   }
 }

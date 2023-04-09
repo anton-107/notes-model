@@ -18,11 +18,11 @@ export interface NoteAttachment {
   owner: string;
 }
 
-export type NoteExtensionProperties = Partial<SourceFileHandlerExtensionProperties> & 
-  Partial<YoutubeVideoExtensionProperties> &
-  Partial<NoteInSectionExtensionProperties> &
-  Partial<PersonalDateRangeExtensionProperties>
-  ;
+export type NoteExtensionProperties =
+  Partial<SourceFileHandlerExtensionProperties> &
+    Partial<YoutubeVideoExtensionProperties> &
+    Partial<NoteInSectionExtensionProperties> &
+    Partial<PersonalDateRangeExtensionProperties>;
 
 export interface Note {
   id: string;
